@@ -1,0 +1,16 @@
+{
+  "name": "cmd-scrabble",
+  "version": "1.0.0",
+  "description": "A 2 player local version of the popular word game",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["scrabble","cmd","game","words"],
+  "author": "j-toporoff",
+  "license": "ISC",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/j-toporoff/cmd-scrabble"
+  }
+}
