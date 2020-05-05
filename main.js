@@ -380,7 +380,7 @@ function tallyPoints(tileList, board, placedTilePositioning){
                                 }
                             }
                             points += tempPoints * multiplier;
-                            if(placedTilePositioning.length == 7) points += 50;
+                            // if(placedTilePositioning.length == 7) points += 50;
                             multiplier = 1;
                         }
                     }
@@ -428,7 +428,7 @@ function tallyPoints(tileList, board, placedTilePositioning){
                                 }
                             }
                             points += tempPoints * multiplier;
-                            if(placedTilePositioning.length == 7) points += 50;
+                            // if(placedTilePositioning.length == 7) points += 50;
                             multiplier = 1;
                         }
                     }
@@ -490,7 +490,7 @@ function tallyPoints(tileList, board, placedTilePositioning){
                                 }
                             }
                             points += tempPoints * multiplier;
-                            if(placedTilePositioning.length == 7) points += 50;
+                            // if(placedTilePositioning.length == 7) points += 50;
                             multiplier = 1;
                         }
                     }
@@ -538,7 +538,7 @@ function tallyPoints(tileList, board, placedTilePositioning){
                                 }
                             }
                             points += tempPoints * multiplier;
-                            if(placedTilePositioning.length == 7) points += 50;
+                            // if(placedTilePositioning.length == 7) points += 50;
                             multiplier = 1;
                         }
                     }
@@ -546,7 +546,7 @@ function tallyPoints(tileList, board, placedTilePositioning){
             }
         }
     }
-
+    if(placedTilePositioning.length == 7) points += 50;
     for(let i = 0; i < placedTilePositioning.length; i++){
         var specialCheck = "" + placedTilePositioning[i].x.toString().padStart(2,'0') + placedTilePositioning[i].y.toString().padStart(2,'0');
         if(specialTiles[0].includes(specialCheck)){
